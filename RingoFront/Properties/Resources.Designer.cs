@@ -93,6 +93,16 @@ namespace RingoFront.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap beige_claro {
+            get {
+                object obj = ResourceManager.GetObject("beige claro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Boxer_Portrait_INSTANT_DOWNLOAD___Boxer_Portrait_Wall_Art_Printable_Art_Printable_Art_Print_digital_download {
             get {
                 object obj = ResourceManager.GetObject("Boxer Portrait INSTANT DOWNLOAD - Boxer Portrait Wall Art Printable Art Printable" +
@@ -147,6 +157,16 @@ namespace RingoFront.Properties {
         internal static System.Drawing.Bitmap comienzos {
             get {
                 object obj = ResourceManager.GetObject("comienzos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondo_blanco {
+            get {
+                object obj = ResourceManager.GetObject("fondo blanco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -424,6 +444,16 @@ namespace RingoFront.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rosa_claro {
+            get {
+                object obj = ResourceManager.GetObject("rosa claro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Toro_3_meses {
             get {
                 object obj = ResourceManager.GetObject("Toro 3 meses", resourceCulture);
@@ -437,6 +467,16 @@ namespace RingoFront.Properties {
         internal static System.Drawing.Bitmap ventas_diarias {
             get {
                 object obj = ResourceManager.GetObject("ventas-diarias", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verde_claro {
+            get {
+                object obj = ResourceManager.GetObject("verde claro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

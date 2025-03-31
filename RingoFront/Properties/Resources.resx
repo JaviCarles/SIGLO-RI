@@ -169,6 +169,9 @@
   <data name="Logo Ringo 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo Ringo 12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="verde claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verde claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ventas-diarias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ventas-diarias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,8 +190,14 @@
   <data name="IMG-20220824-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG-20220824-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="beige" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beige.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="aesthetic clouds" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aesthetic clouds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rosa claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rosa claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boxer Portrait INSTANT DOWNLOAD - Boxer Portrait Wall Art Printable Art Printable Art Print digital download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boxer Portrait INSTANT DOWNLOAD - Boxer Portrait Wall Art Printable Art Printable Art Print digital download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +223,9 @@
   <data name="marron Fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marron Fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="beige claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beige claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="comienzos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\comienzos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,7 +241,7 @@
   <data name="icono-prenda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icono-prenda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="beige" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beige.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fondo blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

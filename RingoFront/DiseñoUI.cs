@@ -52,11 +52,11 @@ namespace RingoFront
                 {
                     case TemaAplicacion.Toro:
                         
-                        imagenFondo = Properties.Resources.beige;
-                        imagenFondoPanelUsuario = Properties.Resources.beige;
+                        imagenFondo = Properties.Resources.beige_claro;
+                        imagenFondoPanelUsuario = Properties.Resources.beige_claro;
                         colorForm = Color.FromArgb(218, 165, 32);
-                        colorMenuLateral = Color.FromArgb(176, 137, 74);
-                        colorBoton = Color.FromArgb(215, 185, 106);
+                        colorMenuLateral = Color.FromArgb(236, 222, 196);
+                        colorBoton = Color.FromArgb(195, 170, 95/*215, 185, 106*/);
                         colorFontBoton = Color.White;
                         colorLabel = Color.FromArgb(176, 137, 74);// colorMenuLateral;
                         colorGroupBox = Color.Transparent; //Color.FromArgb(232, 218, 239);
@@ -68,10 +68,10 @@ namespace RingoFront
                         break;
                     case TemaAplicacion.Menta:
                        
-                        imagenFondo = Properties.Resources.fondo_verde_amarillo;
-                        imagenFondoPanelUsuario = Properties.Resources.fondo_verde_amarillo;
+                        imagenFondo = Properties.Resources.verde_claro;
+                        imagenFondoPanelUsuario = Properties.Resources.verde_claro;
                         colorForm = Color.FromArgb(109, 165, 108);
-                        colorMenuLateral = Color.FromArgb(104, 184, 84);
+                        colorMenuLateral = Color.FromArgb(228, 245, 208);
                         colorBoton = Color.FromArgb(160,220,160/*145, 215, 144*/);
                         colorFontBoton = Color.White;
                         colorLabel = Color.FromArgb(64, 108, 63);
@@ -86,16 +86,16 @@ namespace RingoFront
                         break;
                     case TemaAplicacion.Ringo:
                         // Aplica el tema ringo
-                        imagenFondo = Properties.Resources.cielo;
-                        imagenFondoPanelUsuario = Properties.Resources.Pastel_sunset_edit;
+                        imagenFondo = Properties.Resources.rosa_claro;
+                        imagenFondoPanelUsuario = Properties.Resources.rosa_claro;
                         colorForm = Color.FromArgb(255, 200, 240);
-                        colorBoton = Color.FromArgb(/*215, 144, 193*/180, 110, 140);
+                        colorBoton = Color.FromArgb(/*180, 110, 140*/218, 157, 210);
                         colorFontBoton = Color.White;
                         colorLabel =  Color.FromArgb(/*205, 134, 183*/185,104,153);
                         colorGroupBox = Color.Transparent; //Color.FromArgb(232, 218, 239);
                         colorTextoGroupBox = colorLabel;
                         colorCheckBox = colorLabel;
-                        colorMenuLateral = Color.FromArgb(250, 219, 216);
+                        colorMenuLateral = Color.FromArgb(249, 234, 249);
                         fontGeneral = new Font("BookBookman Old Style" /* "High Tower Text"*/, 11f, FontStyle.Bold);
                         fontBoton = new Font("BookBookman Old Style", 9f, FontStyle.Bold);
                         break;
@@ -128,7 +128,7 @@ namespace RingoFront
                     if (panelLayout.Name == "panelMenuLateral")
                     {
                         panelLayout.BackColor = colorMenuLateral;
-
+                        //panelLayout.BackgroundImage = imagenFondo;
                         foreach (Control control1 in panelLayout.Controls)
                         {
                             if (control1 is Button button1)
@@ -137,7 +137,7 @@ namespace RingoFront
                                 button1.Text = button1.Text.ToUpper();
                                 button1.Font = fontGeneral;//new Font("Century Gothic", 13f, FontStyle.Bold);
                                 button1.BackColor = colorBoton; //Color.FromArgb(243, 91, 213);
-                                button1.ForeColor = colorMenuLateral; //Color.FromArgb(232, 218, 239);
+                                button1.ForeColor = Color.Black;//colorMenuLateral; //Color.FromArgb(232, 218, 239);
                                 
                             }
                             else if (control1 is Panel panel) 
@@ -147,8 +147,8 @@ namespace RingoFront
                                     control1.BackgroundImage = imagenFondoPanelUsuario;
                                     FrmPrincipal principal = Application.OpenForms["FrmPrincipal"] as FrmPrincipal;
                                     principal.labelUsuario.Text = "VERONICA MENDOZA";
-                                    principal.labelUsuario.ForeColor = colorMenuLateral;
-                                    principal.labelUsuario.BackColor = Color.FromArgb(120, colorBoton);
+                                    principal.labelUsuario.ForeColor = Color.Black;// colorMenuLateral;
+                                    //principal.labelUsuario.BackColor = Color.FromArgb(120, colorBoton);
                                     principal.labelUsuario.Font = new Font(fontGeneral.OriginalFontName,14f, FontStyle.Bold);
                                 }
                                 else
@@ -163,10 +163,10 @@ namespace RingoFront
                                         button2.Size = new Size(350, 43);
                                         button2.Text = button2.Text.ToUpper();
                                         button2.Font = fontGeneral;
-                                        button2.BackColor = Color.FromArgb(Math.Max(colorBoton.R + 35, 0),
-                                                                           Math.Max(colorBoton.G + 35, 0),
-                                                                           Math.Max(colorBoton.B + 35, 0));
-                                        button2.ForeColor = colorMenuLateral; 
+                                        button2.BackColor = Color.FromArgb(Math.Max(colorBoton.R + 27, 0),
+                                                                           Math.Max(colorBoton.G + 27, 0),
+                                                                           Math.Max(colorBoton.B + 27, 0));
+                                        button2.ForeColor = Color.Black; 
                                     }
                                 }
 
